@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <header className="flex items-center justify-between px-[20px] py-[20px] relative lg:px-[40px]">
-        <h1 className="font-[Mulish] font-bold text-[18px] leading-none">Travelsy</h1>
+        <h1 className="font-[Mulish] font-bold text-[18px] leading-none mr-[300px]">Travelsy</h1>
         <div className="lg:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-xl text-[#4A4A4A]">
             {menuOpen ? <FaTimes /> : <FaBars />}
