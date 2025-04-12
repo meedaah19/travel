@@ -18,7 +18,7 @@ export default function ContentImages(){
                             <img className="h-[250px]  " src={image1} alt="image1"/>
                             <p className="absolute inset-0 flex justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">Rafting</p>
                             </div>
-                            <div className="relative lg:w-[356px] ml-44  ">
+                            <div className="relative lg:w-[356px] lg:ml-44  ">
                             <div className="absolute inset-0 bg-[#FF5200B2]"></div>
                             <img  src={image2} alt="image2"/>
                             <div className="absolute inset-0 flex flex-col justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">
