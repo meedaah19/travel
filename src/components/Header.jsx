@@ -32,7 +32,7 @@ export default function Header() {
           </div>
           <FaSearch />
           <div className="relative inline-block">
-            <img src={oval} alt="oval" className="border rounded-full w-10 h-10" />
+            <img src={oval} alt="oval" className="border border-white rounded-full w-10 h-10" />
             <span className="absolute top-0 right-0 w-3 h-3 bg-red-500 border border-white rounded-full animate-pulse"></span>
           </div>
           <FaChevronDown />
