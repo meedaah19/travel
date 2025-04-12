@@ -10,15 +10,16 @@ export default function Header() {
       <header className="flex items-center justify-between px-[20px] py-[20px] relative lg:px-[40px]">
         <h1 className="font-[Mulish] font-bold text-[18px] leading-none ">Travelsy</h1>
         <div className="lg:hidden flex text-center gap-2">
-          <button onClick={() => setMenuOpen(!menuOpen)} className="text-xl text-[#4A4A4A]">
-            {menuOpen ? <FaTimes /> : <FaBars />}
-          </button>
-          <FaSearch className="text-[#4A4A4A] mt-2" />
+        <FaSearch className="text-[#4A4A4A] mt-2" />
             <div className="relative inline-block">
               <img src={oval} alt="oval" className="border border-white rounded-full w-8 h-8" />
               <span className="absolute top-0 right-0 w-2.5 h-2.5 bg-red-500 border border-white rounded-full animate-pulse"></span>
             </div>
             <FaChevronDown className="text-[#4A4A4A] mt-2" />
+          <button onClick={() => setMenuOpen(!menuOpen)} className="text-xl text-[#4A4A4A]">
+            {menuOpen ? <FaTimes /> : <FaBars />}
+          </button>
+          
         </div>
         <ul className={`
           ${menuOpen ? 'flex' : 'hidden'}
