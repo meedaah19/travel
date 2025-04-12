@@ -20,7 +20,7 @@ export default function PaymentMethod(){
                 <img className='w-[43px] h-[13px] ' src={payment3} alt="payment3" />
                 <img className='w-[70px] h-[20px] ' src={payment4} alt="payment4" />
                 <img className='w-[34px] h-[27px] ' src={payment5} alt="payment5" />
-                <div className='flex text-center'>
+                <div className='flex text-center gap-2 '>
                 <div className='flex text-center border border-[#E4E4E4] p-2 w-[231px] h-[40px]'>
                 <img className='w-[20px] h-[20px] rounded-4xl ' src={payment6} alt="payment6" />
                 <p className='font-[mulish] font-[400] text-[#9B9B9B] pl-2 pr-4 '>English (United State)</p>
