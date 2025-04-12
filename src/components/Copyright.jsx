@@ -2,7 +2,7 @@ export default function Copyright(){
     return(
         <div className="overflow-y-hidden">
             <hr className="border-t-[1px] border-[#D8D8D8]" />
-            <div className="lg:w-[1280px] lg:p-[100px] p-[30px] pt-[50px] pb-[50px] flex justify-between">
+            <div className="lg:w-[1280px] lg:pr-[100px] lg:pl-[100px] p-[30px] pt-[50px] pb-[50px] flex justify-between">
                 <div>
                     <p className="font-[mulish] font-[400] text-[#333333] md:text-[15px] lg:text-[15px] text-[11px]">Copyright © 2019 Travelsy Ltd. All rights reserved</p>
                 </div>

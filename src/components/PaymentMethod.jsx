@@ -10,7 +10,7 @@ export default function PaymentMethod(){
     return(
         <div className='overflow-x-hidden'>
             <hr className="border-t-[1px] border-[#D8D8D8]" />
-        <div className='lg:w-[1280px] lg:p-[100px] p-[30px] pt-[50px] flex lg:items-center lg:flex-row md:flex-row flex-col  pb-[50px] lg:h-[30px]  '>
+        <div className='lg:w-[1280px] lg:px-[100px] p-[30px] pt-[50px] flex lg:items-center lg:flex-row md:flex-row flex-col pb-[50px]  '>
             <div className='mr-[300px]' >
             <h1 className="font-[mulish] font-[700] leading-0 text-[#30797C] text-xl" >Travelsy</h1>
             </div>
