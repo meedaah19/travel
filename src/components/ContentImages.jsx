@@ -13,21 +13,21 @@ import image9 from '../assets/image9.png';
 export default function ContentImages(){
     return(
         <>
-            <div className="flex col-end-2 gap-4">
-                            <div className="relative">
-                            <img src={image1} alt="image1"/>
+            <div className="flex lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 gap-4 flex-col">
+                            <div className="relative lg:w-[710px] ">
+                            <img className="h-[250px]  " src={image1} alt="image1"/>
                             <p className="absolute inset-0 flex justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">Rafting</p>
                             </div>
-                            <div className="relative">
+                            <div className="relative lg:w-[356px] ml-44  ">
                             <div className="absolute inset-0 bg-[#FF5200B2]"></div>
-                            <img src={image2} alt="image2"/>
+                            <img  src={image2} alt="image2"/>
                             <div className="absolute inset-0 flex flex-col justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">
                             <FaCheck/>
                             <p>Nature Walk</p>
                             </div>
                             </div>
                         </div>
-                        <div className="flex col-end-3 gap-4 pt-4">
+                        <div className="flex lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 flex-col gap-4 pt-4">
                         <div className="relative">
                             <img className="w-[357px] h-[250px]" src={image3} alt="image3"/>
                             <p className="absolute inset-0 flex justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">Bike Riding</p>
@@ -41,21 +41,21 @@ export default function ContentImages(){
                             <p className="absolute inset-0 flex justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">Wine Tasting</p>
                             </div>
                         </div>
-                        <div className="flex col-end-2 gap-4 pt-4">
-                            <div className="relative">
+                        <div className="flex lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex-col gap-4 pt-4">
+                            <div className="relative  ">
                             <img src={image6} alt="image6"/>
                             <p className="absolute inset-0 flex justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">Coffee Tasting</p>
                             </div>
-                            <div className="relative">
+                            <div className="relative ">
                             <div className="absolute inset-0 bg-[#FF5200B2]"></div>
-                            <img src={image7} alt="image7"/>
+                            <img className="h-[250px]  " src={image7} alt="image7"/>
                             <div className="absolute inset-0 flex flex-col justify-center items-center font-[didot] font-[700] leading-[30px] text-white ">
                             <FaCheck/>
                             <p>Farm Visit</p>
                             </div>
                             </div>
                         </div>
-                        <div className="flex col-end-2 gap-4 pt-4">
+                        <div className="flex lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex-col gap-4 pt-4">
                         <div className="relative">
                             <div className="absolute inset-0 bg-[#FF5200B2]"></div>
                             <img className="h-[250px] w-[733px] " src={image8} alt="image8"/>

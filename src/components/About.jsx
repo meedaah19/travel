@@ -4,8 +4,8 @@ import reviewImg2 from '../assets/review-img2.png';
 
 export default function About() {
     return(
-        <div className="w-[1441px] h-[518px] bg-[#F8F8F8] mt-16  ">
-            <div className="w-[1280px] p-[100px] flex items-left">
+        <div className="overflow-x-hidden lg:w-[1441px] lg:h-[518px] bg-[#F8F8F8] mt-16  ">
+            <div className="lg:w-[1280px] lg:p-[100px] p-[30px] flex items-left">
             <div className=" w-[356px] h-[318px]">
             <p className=" size-[14px] font-[mulish] font-[14px] text-[#9B9B9B] ">TESTIMONIALS</p>
             <h1 className="font-[didot] font-[700] leading-[40px] w-[280px] pt-10 text-5xl " >What <br /> customers <br />

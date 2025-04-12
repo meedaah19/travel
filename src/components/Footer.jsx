@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <div >
-             <div className="flex flex-wrap gap-10 pt-30 w-[1280px] p-[100px]">
+        <div className="overflow-x-hidden" >
+             <div className="flex flex-wrap gap-10 pt-30 lg:w-[1280px] lg:p-[100px] p-[30px] ">
             <div>
                 <h1 className="font-[mulish] font-[700] leading-0  ">Need Travelsy Help?</h1>
                 <p className="font-[mulish] font-[400] text-[#4A4A4A] pt-6 " >Got Questions? Call us 24/7!</p>
