@@ -24,7 +24,7 @@ export default function Header() {
         <ul className={`
           ${menuOpen ? 'flex' : 'hidden'}
           absolute top-full left-0 w-full bg-white flex-col items-center 
-          py-4 gap-4 text-[#4A4A4A] font-[Mulish] text-[13px]
+          py-4 gap-4 text-[#4A4A4A] font-[Mulish] text-[13px] lg: pl-[300px]
           lg:static lg:flex lg:flex-row lg:gap-10 lg:w-auto lg:bg-transparent lg:py-0
         `}>
           <li><p>Camping Locations</p></li>
